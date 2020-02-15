@@ -4,19 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.example.mediaplayer.VideoPlayer">
 
-    <Button
-        android:id="@+id/music"
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Music"/>
+        android:id="@+id/listVideoRecycler"
+        >
 
-    <Button
-        android:id="@+id/video"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Video"/>
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
